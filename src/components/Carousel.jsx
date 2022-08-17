@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import photo from '../assets/PokeApiPhoto.png'
 import photo2 from '../assets/TodoListjunto.png'
-import photo3 from '../assets/topo.png'
+import photo3 from '../assets/topofinal.png'
 import './carousel.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
