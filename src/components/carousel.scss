@@ -1,0 +1,35 @@
+.photo{
+   height: 50%;
+width: 50%;
+    
+}
+.photo:hover{
+    transform: scale(1.4);
+}
+
+
+.carousel{
+
+display: flex;
+justify-content: center;
+transform: scale(0.9);
+
+
+
+}
+
+
+.photo2{
+    
+}
+.photo2:hover{
+    transform: scale(1.4);
+}
+
+.photo3{
+    height: 75%;
+ width: 75%;
+}
+.photo3:hover {
+    transform: scale(1.4);
+}

@@ -1,0 +1,25 @@
+import React, { useEffect,useState } from "react"
+
+const DigitalDate=()=>{
+
+const [clockState,setClockState]=useState();
+
+useEffect(()=>{
+    setInterval(()=>{
+        const date= new Date();
+        setClockState(date.toLocaleDateString());
+        
+    },1000
+    )
+},[]);
+
+     return(
+
+        <div>
+        
+        <h2 >{clockState}</h2>
+        </div>
+     )
+}
+
+export default DigitalDate
