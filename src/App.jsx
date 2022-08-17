@@ -1,5 +1,5 @@
 import "./App.scss";
-// import Video from './components/aaaaa';
+
 import { Route,  Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/pages/Home";
@@ -11,10 +11,8 @@ import Info from "./components/pages/Info";
 import DigitalClock from "./components/DigitalClock";
 import DigitalDate from "./components/DigitalDate";
 
-// import IndividualIntervalsExample from './components/Carousel'
 
- // import Video from "./components/VideoBG"; <Video/>
-// import videoBG from './assets/internet_technology_futuristic_waves_935.mp4'
+
 
 function App() {
   return (
